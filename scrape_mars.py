@@ -14,7 +14,7 @@ def scrape():
     mars_library = {}
     # Use splinter to navigate the JPL's Featured Space Image and scrape the current Featured Mars Image url (https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
     # Execute Chromedriver
-    executable_path = {'executable_path': 'chromedriver.exe'}
+    executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
     # #### NASA Mars News
     # We will scrape the lastest News Title and Paragragh Text from NASA Mars News Site(https://mars.nasa.gov/news/).
@@ -132,3 +132,5 @@ def scrape():
     
     # Return Library
     return mars_library
+
+    

@@ -8,6 +8,21 @@
   <title>Get Mars Data</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='/Users/Resi/Desktop/static/StyleM.css') }}">
+
+  <style media="screen" type="text/css">
+
+    body{background-image: url(https://images4.alphacoders.com/153/thumb-1920-153316.jpg);
+      }
+
+    #jumbo {background-image: url(https://images4.alphacoders.com/153/thumb-1920-153316.jpg); }
+
+    #text-color { color:black;}
+
+    #padding{ padding-left: 12%;}
+
+    </style>
+
 </head>
 
 <body>
@@ -22,7 +37,7 @@
 	<div class="row ml-5 mt-5 mr-5 mb-5">
 	  <div class="col-lg-12 mb-6  border border-secondary" style="background-color:lightgrey;">
 	    <div class="thumbnail">
-	      <h2 class="text-primary pt-4">Latest Mars News</h2>
+	      <h2 class="text-primary pt-4">NASA Latest Mars News</h2>
 	      <hr>
 	      <h4>{{mars.news_title}}</h4>
 	      <p>{{mars.news_p}}</p>
@@ -48,17 +63,16 @@
 		<p>{{mars.mars_weather}}</p>
 		<br>
         <div>
-          <h2 class="text-primary pt-4">Mars Facts</h2>
+
+<h2 class="text-primary pt-4">Mars Facts</h2>
+
+<div>
           
-<table border="1" class="dataframe">
+<table border="1" class="table table-bordered" id="text-color">
   <thead>
-    <tr style="text-align: right;">
-      <th></th>
+    <tr style="text-align: center;">
       <th>value</th>
-    </tr>
-    <tr>
       <th>description</th>
-      <th></th>
     </tr>
   </thead>
   <tbody>

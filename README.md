@@ -1,4 +1,4 @@
-Instrucctions to open the app:
+Instructions to open the app:
 
 1-You should download this repo to your desktop.
 2- Run $ python app.py

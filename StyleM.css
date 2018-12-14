@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+    
+.jumbotron h1{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+h2{
+    color: lightcoral;
+    font-weight: bold;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 10px;
+}
+
+.jumbotron{
+    margin-top:75px;
+}
+
+
+.lead{
+    font-weight: bold;
+}
+

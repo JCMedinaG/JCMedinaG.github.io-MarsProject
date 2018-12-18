@@ -10,7 +10,7 @@ You will see this:
  
  click the link
  
-3- Type localhost:5000 into the url bar and the application should open. Just press the Scrape new Data button and wait a few seconds while the application does its thing and gathers the data before presenting it to you. 
+3- Type localhost:5000 into the url bar and the application should open. Try the Scrape Buttom again.
 
 
 

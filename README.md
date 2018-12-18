@@ -10,7 +10,7 @@ You will see this:
  
  click the link
  
-3- Type localhost:5000 into the url bar and the application should open. Try the Scrape Button again.
+3- Type localhost:5000 into the url bar and the application should open. Try the Scrape Button again, and wait for the update.
 
 
 

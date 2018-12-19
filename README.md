@@ -6,7 +6,7 @@ Instructions to open the app:
 
 You will see this:
 
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:5000/
  
  click the link
  
